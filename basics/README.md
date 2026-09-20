@@ -18,3 +18,7 @@ Este directorio contiene scripts de Bash para aprender comandos básicos de nave
 - `11-lists`: Muestra en formato largo todos los archivos (incluidos los ocultos) del directorio actual, el padre y `/boot`.
 - `12-file_type`: Imprime el tipo del archivo `/tmp/iamafile`.
 - `13-symbolic_link`: Crea un enlace simbólico hacia `/bin/ls` llamado `__ls__`.
+- `14-copy_html`: Copia los archivos HTML al directorio padre si no existen o son más nuevos.
+- `15-lets_move`: Mueve todos los archivos que comienzan con mayúscula a `/tmp/u/`.
+- `16-clean_emacs`: Elimina todos los archivos del directorio actual que terminan en `~`.
+- `17-tree`: Crea la estructura de directorios `welcome/to/school`.
