@@ -11,7 +11,7 @@ Este directorio contiene scripts de Bash para aprender sobre permisos, usuarios 
 - `4-empty`: Crea un archivo vacío llamado `hello`.
 - `5-execute`: Agrega permiso de ejecución al usuario propietario del archivo `hello`.
 - `6-multiple_permissions`: Establece el modo de permisos `754` (`rwxr-xr--`) para el archivo `hello`.
-- `7-everybody`: Establece el modo de permisos `751` (`rwxr-x--x`) para el archivo `hello`.
+- `7-everybody`: Agrega permiso de ejecución a todos (dueño, grupo y otros) para el archivo `hello`.
 - `8-James_Bond`: Establece permisos para que únicamente otros usuarios tengan todos los permisos (lectura, escritura y ejecución) sobre el archivo `hello`.
 - `9-John_Doe`: Establece el modo de permisos `753` (`rwxr-x-wx`) para el archivo `hello`.
 - `10-mirror_permissions`: Copia y aplica el modo de permisos del archivo `olleh` al archivo `hello`.
